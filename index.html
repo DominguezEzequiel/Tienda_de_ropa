@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS Customer -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Tienda de Ropa - HOME</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./multimedia/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/productos_invierno.html">INVIERNO</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="pages/productos_verano.html">VERANO</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">¡OFERTAS!</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="pages/preguntas.html">PREGUNTAS FRECUENTES</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">CONTACTANOS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">BUSCAR</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Carousel -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./multimedia/slider_1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./multimedia/slider_2.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Sección info -->
+        <section class="info my-5">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/info_1.png" alt="">
+                        <p>ENVÍOS GRATIS A TODO EL PAÍS</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/info_2.png" alt="">
+                        <p>HASTA 12 CUOTAS SIN INTERÉS</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img src="multimedia/info_3.png" alt="">
+                        <p>SE REALIZAN CAMBIOS POR TALLE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección categorias -->
+
+        <section class="categoria">
+            <div class="categoria__box box1">
+                <a href="">
+
+                    <h3>CAMPERAS</h3>
+                    <p>VER CATEGORIA</p>
+                </a>
+            </div>
+            <div class="categoria__box box2">
+                <a href="">
+                    <h3>CALZADOS</h3>
+                    <p>VER CATEGORIA</p>
+                </a>
+            </div>
+            <div class="categoria__box box3 ">
+                <a href="">
+                    <h3>REMERAS</h3>
+                    <p>VER CATEGORIA</p>
+                </a>
+            </div>
+            <div class="categoria__box box4 ">
+                <a href="">
+                    <h3>OFERTAS</h3>
+                    <p>VER CATEGORIA</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="recibir">
+            <h2>Recibí todas las ofertas</h2>
+            <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
+            <input type="text" placeholder="Email">
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-danger" type="button">E N V I A R</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="redes">
+            <a href="https://instagram.com">
+                <img src="multimedia/instagram.png" alt="">
+            </a>
+            <a href="https://facebook.com">
+                <img src="multimedia/facebook.png" alt="">
+            </a>
+        </div>
+        <div class="navegacion">
+            <a href="index.html">
+                <p>HOME</p>
+            </a>
+            <a href="pages/productos_invierno.html">
+                <p>PRODUCTOS</p>
+            </a>
+            <a href="pages/preguntas.html">
+                <p>PREGUNTAS FRECUENTES</p>
+            </a>
+            <a href="pages/contacto.html">
+                <p>CONTACTANOS</p>
+            </a>
+        </div>
+        <div class="tarjetas">
+            <img src="multimedia/footer/amex.png" alt="">
+            <img src="multimedia/footer/cabal.png" alt="">
+            <img src="multimedia/footer/diners.png" alt="">
+            <img src="multimedia/footer/mastercard.png" alt="">
+            <img src="multimedia/footer/mercadopago.png" alt="">
+            <img src="multimedia/footer/pagofacil.png" alt="">
+            <img src="multimedia/footer/rapipago.png" alt="">
+        </div>
+
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

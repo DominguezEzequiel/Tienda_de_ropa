@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.categoria {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-top: 6rem;
+    flex-wrap: wrap;
+    
+}
+.categoria__box {
+    height: 30rem;
+    width: 100%;
+    text-align: center;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.categoria__box a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.categoria__box p {
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: .4rem;
+    font-size: 1.4rem;
+}
+.categoria__box h3 {
+    font-size: 3rem;
+}
+.box1{
+    background-image: url(../multimedia/categorias-campera.jpg);
+    background-size: cover;
+    transition: all .3s;
+}
+.box1:hover{
+    transform: scale(.9);
+    opacity: .8;
+}
+.box2{
+    background-image: url(../multimedia/categorias-calzado.jpg);
+    background-size: cover;
+    transition: all .3s;
+}
+.box2:hover{
+    transform: scale(.9);
+    opacity: .8;
+}
+.box3{
+    background-image: url(../multimedia/categorias-oferta.jpg);
+    background-size: cover;
+    transition: all .3s;
+}
+.box3:hover{
+    transform: scale(.9);
+    opacity: .8;
+}
+.box4{
+    background-image: url(../multimedia/categorias-pantalon.jpg);
+    background-size: cover;
+    transition: all .3s;
+}
+.box4:hover{
+    transform: scale(.9);
+    opacity: .8;
+}
+
+
+.recibir {
+    text-align: center;
+    margin-top: 3rem;
+}
+.recibir h2 {
+    font-size: 3rem;
+}
+.recibir input {
+    width: 75%;
+    padding: .6rem;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+.recibir button {
+    margin-top: 1rem;
+    padding: .2em 0;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+
+.redes {
+    padding: .5rem;
+}
+.redes img {
+    width: 20px;
+}
+.navegacion {
+    display: flex;
+    gap: 1rem;
+}
+.navegacion a {
+    text-decoration: none;
+    color: black;
+}
+.tarjetas {
+    margin: 1rem;
+}
+.tarjetas img {
+    width: 35px;
+}
+
+.preguntas {
+    color: #444;  
+}
+
+.card img{
+    transition: all .3s;
+}
+.card img:hover {
+    transform: scale(1.2);
+}
